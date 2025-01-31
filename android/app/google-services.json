@@ -1,0 +1,48 @@
+{
+    "project_info": {
+      "project_number": "61814554850",
+      "project_id": "infix-17653",
+      "storage_bucket": "infix-17653.appspot.com"
+    },
+    "client": [
+      {
+        "client_info": {
+          "mobilesdk_app_id": "1:61814554850:android:61716fc8d0a575bbea9ebb",
+          "android_client_info": {
+            "package_name": "com.edu.infix.infixedu"
+          }
+        },
+        "oauth_client": [],
+        "api_key": [
+          {
+            "current_key": "AIzaSyAlk0b-ODirPEJ8V8GFHtm_IUTmZCv4ZGo"
+          }
+        ],
+        "services": {
+          "appinvite_service": {
+            "other_platform_oauth_client": []
+          }
+        }
+      },
+      {
+        "client_info": {
+          "mobilesdk_app_id": "1:61814554850:android:9fe7a3addff79fe1ea9ebb",
+          "android_client_info": {
+            "package_name": "com.example.flutter_single_getx_api_v2"
+          }
+        },
+        "oauth_client": [],
+        "api_key": [
+          {
+            "current_key": "AIzaSyAlk0b-ODirPEJ8V8GFHtm_IUTmZCv4ZGo"
+          }
+        ],
+        "services": {
+          "appinvite_service": {
+            "other_platform_oauth_client": []
+          }
+        }
+      }
+    ],
+    "configuration_version": "1"
+  }

@@ -1,0 +1,29 @@
+// Flutter imports:
+import 'package:flutter/material.dart';
+
+// Package imports:
+
+// Project imports:
+import 'package:infixedu/utils/CustomAppBarWidget.dart';
+import 'package:pdfrx/pdfrx.dart';
+
+// import 'package:infixedu/utils/pdf_flutter.dart';
+
+class DownloadViewer extends StatefulWidget {
+  final String? title;
+  final String? filePath;
+  const DownloadViewer({Key? key, this.title, this.filePath}) : super(key: key);
+  @override
+  _DownloadViewerState createState() => _DownloadViewerState();
+}
+
+class _DownloadViewerState extends State<DownloadViewer> {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+        appBar: CustomAppBarWidget(title: widget.title ?? ''),
+        body: PdfViewer.uri(
+          Uri.parse(widget.filePath ?? ''),
+        ));
+  }
+}
