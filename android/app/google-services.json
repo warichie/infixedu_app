@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "29155114472",
+    "project_id": "infix-edu-v2",
+    "storage_bucket": "infix-edu-v2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:29155114472:android:cb5e5666fc2d135a76b85d",
+        "android_client_info": {
+          "package_name": "com.edu.infix.infixeduv2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnHvTjM0ikbDaiUaEsFu48oTeIT9wnAFs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:29155114472:android:e8c0c97f5b786d7976b85d",
+        "android_client_info": {
+          "package_name": "com.infixedu.school"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnHvTjM0ikbDaiUaEsFu48oTeIT9wnAFs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

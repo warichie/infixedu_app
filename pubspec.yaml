@@ -1,0 +1,121 @@
+name: infixedu
+version: 1.0.1+7
+publish_to: none
+description: InfixEdu Learning Management System
+environment:
+  sdk: '>=3.1.3 <4.0.0'
+
+dependencies:
+  cupertino_icons: ^1.0.6
+#  get_cli: ^1.8.4
+  get: 4.6.6
+  get_storage: ^2.1.1
+  cached_network_image: ^3.4.1
+  flutter_svg: ^2.0.10+1
+  font_awesome_flutter: ^10.7.0
+  logger: ^2.4.0
+  lottie: ^3.1.2
+#  persistent_bottom_nav_bar_v2: ^4.2.8
+  persistent_bottom_nav_bar:
+    git:
+      url: https://github.com/HamzaSamirAmmar/PersistentBottomNavBar.git
+  badges: ^3.1.2
+  intl: ^0.19.0
+  path_provider: ^2.1.4
+  dio: ^5.7.0
+  http: ^1.2.2
+  file_utils: ^1.0.1
+  flutter_cache_manager: ^3.4.1
+  open_filex:
+    git:
+      url: https://github.com/mufassalhussain/open_filex.git
+  permission_handler: ^11.3.1
+  flutter_calendar_carousel: ^2.4.4
+  image_picker: ^1.1.2
+  file_picker: ^8.1.2
+  device_info_plus: ^11.1.1
+  shared_preferences: ^2.3.2
+  pusher_channels_flutter: ^2.3.0
+  # pusher_channels_flutter:
+  #   git: 
+  #     url: https://github.com/spn103/pusher-channels-flutter.git
+
+  url_launcher: ^6.3.0
+  flutter_inappwebview: ^6.1.5
+  #  Push Notification
+  flutter_local_notifications: ^18.0.1
+  firebase_core: ^3.5.0
+  firebase_messaging: ^15.1.2
+  firebase_auth: ^5.3.0
+#  firebase_analytics: ^11.2.0
+
+  iconsax: ^0.0.8
+  edge_alerts: ^0.0.1
+  rxdart: ^0.28.0
+  flutter_widget_from_html: ^0.15.2
+
+  pdfrx: ^1.0.84
+
+  # Payment Gateways
+  flutter_stripe: ^11.2.0
+#  stripe_sdk: ^5.0.0
+  flutter_paypal_checkout:
+    git:
+      url: https://github.com/cmtboy/flutter_paypal_checkout-1.0.1.git
+  flutter_paystack_max: ^1.0.4
+
+  flutter:
+    sdk: flutter
+  flutter_downloader: ^1.11.8
+  flutter_screenutil: ^5.9.3
+dependency_overrides:
+  http: ^0.13.5
+#  flutter_inappwebview: ^5.7.2+3
+  archive: ^3.6.1
+  # file_picker: ^5.1.6
+  # intl: ^0.18.1
+  # firebase_core: ^2.15.1
+  # win32: ^5.5.4
+#  stripe_android: 9.5.0+1
+#  dcli: ^2.1.0
+
+dev_dependencies:
+  flutter_lints: ^3.0.0
+  rename: ^3.0.2
+  flutter_launcher_icons: ^0.14.1
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/config/
+    - assets/images/
+    - assets/config/
+    - assets/icons/student/
+    - assets/icons/teacher/
+    - assets/icons/parents/
+    - assets/icons/admin/
+    - assets/svg/student/
+
+
+fonts:
+  - family: poppins
+    fonts:
+      - asset: fonts/poppins_medium.ttf
+        weight: 100
+      - asset: fonts/poppins_bold.ttf
+        weight: 200
+      - asset: fonts/poppins_light.ttf
+        weight: 300
+      - asset: fonts/poppins_regular.ttf
+        weight: 400
+      - asset: fonts/poppins_semibold.ttf
+        weight: 500
+
+# to change app icon use: dart run flutter_launcher_icons
+
+  #to change app name or package name use:
+  #  rename setAppName --targets ios,android --value "InfixEdu"
+  #  rename setBundleId --targets android,ios --value "com.infixedu.school"
